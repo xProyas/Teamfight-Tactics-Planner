@@ -40,7 +40,7 @@ export class HeroesList extends React.Component<{}, State> {
     return (
       <div style={{ width: '100%' }}>
         <h1 style={{ color: 'White' }}>
-          Click on heroes to add/remove them to/from your team.
+          Click on champions to add/remove them to/from your team.
         </h1>
         {/* <Grid>
           <Grid.Column width={8}> */}
@@ -50,7 +50,7 @@ export class HeroesList extends React.Component<{}, State> {
               <thead style={{ color: 'White' }}>
                 <tr>
                   <th>Name</th>
-                  <th>Species</th>
+                  <th>Origin</th>
                   <th>Class</th>
                   {/* <th>Ability</th> */}
                   <th>Cost</th>
@@ -58,7 +58,7 @@ export class HeroesList extends React.Component<{}, State> {
               </thead>
 
               <tbody>
-                {heroes.map(({ name, species, className, cost }) => (
+                {heroes.map(({ name, origin, className, cost }) => (
                   <tr
                     key={name}
                     onClick={() => {
@@ -78,9 +78,9 @@ export class HeroesList extends React.Component<{}, State> {
                       {name}
                     </td>
                     <td>
-                      {species.map(speciesName => (
-                        <React.Fragment key={speciesName}>
-                          <Feature name={speciesName} />{' '}
+                      {origin.map(originName => (
+                        <React.Fragment key={originName}>
+                          <Feature name={originName} />{' '}
                         </React.Fragment>
                       ))}
                     </td>
