@@ -1,33 +1,32 @@
 export const featuresPerks = {
   Dragon: {
-    3: 'All friendly dragons have 100 mana when battle starts.',
+    2: 'Dragons are immune to Magic Damage.',
   },
-  Elf: {
-    3: 'Evasion increased by 25% for all friendly elfs.',
-    6: 'Evasion increased by 25% for all friendly elfs.',
+  Glacial: {
+    2: '20% Chance on hit to stun for 2s.',
+    4: '30% Chance on hit to stun for 2s.',
+    6: '45% Chance on hit to stun for 2s.',
   },
-  Undead: {
-    2: 'Armor decreased by 5 for all enemies.',
-    4: 'Armor decreased by 7 for all enemies.',
+  Phantom: {
+    2: 'Curse an enemy at the start of combat, setting their HP to 100.',
   },
-  Orc: {
-    2: 'Max HP increased by 250 for all friendly orcs.',
-    4: 'Max HP increased by 350 for all friendly orcs.',
+  Demon: {
+    2: '30% chance on hit to burn all current mana of the target, dealing true damage equal to mana burned.',
+    4: '50% chance on hit to burn all current mana of the target, dealing true damage equal to mana burned.',
+    4: '70% chance on hit to burn all current mana of the target, dealing true damage equal to mana burned.',
   },
-  Goblin: {
-    3: 'Armor and hp regeneration increased by 15 for a random ally.',
-    6: 'Armor and hp regeneration increased by 15 for all friendly goblins.',
+  Imperial: {
+    2: 'Double damage for one Imperial.',
+    4: 'Double damage for all Imperials.',
   },
-  Element: {
-    2: 'All friendly elements have 30% chance to turn attacker into stone for 3s when attacked by melee chesses.',
-    4: 'All friendly elements have 30% chance to turn attacker into stone for 3s when attacked by melee chesses.',
+  Pirate: {
+    3: 'You earn up to 4 additional gold from each PVP round',
   },
-  Human: {
-    2: 'All friendly humans have 20% chance to disarm target for 3s on damage deal.',
-    4: 'All friendly humans have 25% chance to disarm target for 3s on damage deal.',
-    6: 'All friendly humans have 30% chance to disarm target for 3s on damage deal.',
+  Noble: {
+    3: '+100 Armor and heal 35 on hit for a random ally.',
+    6: '+100 Armor and heal 35 on hit for all allies.',
   },
-  Naga: {
+  Exile: {
     2: 'Magic resistance increased by 20 for all allies.',
     4: 'Magic resistance increased by 40 for all allies.',
   },
