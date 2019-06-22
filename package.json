@@ -1,5 +1,5 @@
 {
-  "name": "dota-auto-chess-planner",
+  "name": "Teamfight-Tactics-Planner",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -29,5 +29,5 @@
     "gh-pages": "^2.0.1",
     "typescript": "^3.3.1"
   },
-  "homepage": "http://Kumagor0.github.io/dota-auto-chess-planner"
+  "homepage": "http://xProyas.github.io/Teamfight-Tactics-Planner"
 }
